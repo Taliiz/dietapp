@@ -1,0 +1,87 @@
+body {
+    background-color: #36393e;
+}
+
+.revealed {
+    border: 1px outset #840424;
+    background-color: #ffcccb;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.notRevealed {
+    border: 1px outset #840424;
+    background-color: #cc342c;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.yellow-square {
+    background-color: #ffdc00;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#width,
+#height,
+#numberOfMines {
+    display: inline-block;
+}
+
+label {
+    color: white;
+}
+
+input {
+    width: 40px;
+}
+
+.inlineForm {
+    display: inline;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
+.conversionInput {
+    height: 200px;
+    width: 350px;
+}
+
+.convertButton {
+    border: 2px black;
+    margin-top: 12px;
+    height: 50px;
+    width: 133px;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.convertButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.convertButton:hover {
+    cursor: pointer;
+}
+
+.linkinput {
+  width: 350px
+}

@@ -1,0 +1,2 @@
+weights for choices : 1-2tsp of x is converted to x-yg of g
+if there's just words just display that : "a thumb sized piece of ginger" doesn't change
