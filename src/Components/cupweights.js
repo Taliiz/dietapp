@@ -32,7 +32,10 @@ const cupweights = {
     groundcumin: 96,
     cumin: 96,
     groundpaprika: 116,
-    paprika: 116
+    paprika: 116,
+    coconutflour:112,
+    almondflour:96,
+    psylliumhusk:80
 };
 
 export default cupweights

@@ -4,7 +4,7 @@ import handleConversion from "./handleConversion";
 function Converter() {
     const [stringArr, setArr] = useState();
     const [display, setDisplay] = useState("none");
-    const regex = /(\d[ ]*[ \t]*[¼⅓½⅔¾]|[¼⅓½⅔¾]|\d[ ]*[ \t]*(?:1\/[432]|2\/3|3\/4)|(?:1\/[432]|2\/3|3\/4)|\d?[-]?(?:\sto\s)?\d?)(?!\S)(?:[ \t]+,?(cups|cup|teaspoons|teaspoon|tsps|tsp|tablespoons|tablespoon|tbsp|tbsps|oz|ounces|ounce))?(.*)|(.*)/g;
+    const regex = /(\d*[ ]*[ \t]*[¼⅓½⅔¾]|[¼⅓½⅔¾]|\d*[ ]*[ \t]*(?:1\/[432]|2\/3|3\/4)|(?:1\/[432]|2\/3|3\/4)|\d*[-]?(?:\sto\s)?\d*?)(?!\S)(?:[ \t]+,?(cups|cup|teaspoons|teaspoon|tsps|tsp|tablespoons|tablespoon|tbsp|tbsps|oz|ounces|ounce))?(.*)|(.*)/g;
 
     function handleClick(e) {
         e.preventDefault();
