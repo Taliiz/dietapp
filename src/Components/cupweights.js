@@ -1,6 +1,7 @@
 const cupweights = {
     water: 236,
     allpurposeflour: 125,
+    flour: 125,
     breadflour: 130,
     cakeflour: 114,
     pastryflour: 106,
@@ -33,9 +34,9 @@ const cupweights = {
     cumin: 96,
     groundpaprika: 116,
     paprika: 116,
-    coconutflour:112,
-    almondflour:96,
-    psylliumhusk:80
+    coconutflour: 112,
+    almondflour: 96,
+    psylliumhusk: 80,
 };
 
-export default cupweights
+export default cupweights;
